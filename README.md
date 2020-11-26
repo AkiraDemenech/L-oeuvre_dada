@@ -2,6 +2,8 @@
     Reproductibilité technique inspirée de  dadaïsme
     // de la célèbre formule de Tristan Tzara
 
+[há um vídeo](https://vimeo.com/480524782/) cuja narração
+
 De lá para cá, foram-se anos, foi-se muito sentido, mas Amar da o deixa que Nada findas confundido 
 coisas Nada sem que coisas 
 Nada o Nada cora��o. As coisas 
