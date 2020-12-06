@@ -2,7 +2,7 @@
     Reproductibilité technique inspirée de  dadaïsme
     // de la célèbre formule de Tristan Tzara
 
-[há um vídeo](https://vimeo.com/480524782/) cuja narração
+[há um vídeo](https://vimeo.com/480524782) [cuja narração~;~ç.ç´p~~/;~;´~~^.´p.~^;´=´~´~p´p;~´;p~](https://soundcloud.com/akirademenech/progress_such-an-imaginative-and-wonderous-thing/)
 
 De lá para cá, foram-se anos, foi-se muito sentido, mas Amar da o deixa que Nada findas confundido 
 coisas Nada sem que coisas 
