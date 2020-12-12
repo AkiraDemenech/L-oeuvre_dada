@@ -10,6 +10,8 @@ import java.util.Random;
 
 public class Hexa {
 	
+	public static final int DIM = 4;
+	
 public static void read (String arq, List<String> m) {
 		
 		if(m==null)
@@ -201,6 +203,7 @@ public static void print (List<String> a) {
 	}
 	
 	public static void seminario (Integer a) {
+		if(a!=null)
 		 System.out.println(a.toString());
 	}
 	
@@ -212,13 +215,13 @@ public static void print (List<String> a) {
 		List<String> poem = new ArrayList<>();
 		List<String> base;
 		
-		for(int c=1; c<=4; c++) {
+		for(int c=1; c<=DIM; c++) {
 			
-			System.out.print(" .");
+			System.out.print('.');
 			base = read("Poema" + c + ".txt");
 			juntar(poem, base);
 			
-			for(int i=2; i<=4; i++) {
+			for(int i=2; i<=DIM; i++) {
 				base = make(base, c);
 				juntar(poem, base);
 			}
@@ -229,7 +232,11 @@ public static void print (List<String> a) {
 		
 		System.out.print("\n	OBRA ");
 		write("New_Poem.txt", poem);
-		System.out.println("4 x 4 x 4 x 4");
+		for(int c = 0; c < DIM; c++) {
+			if(c > 0)
+				System.out.print(" × ");
+			System.out.print(DIM);
+		}
 		
 	}
 
