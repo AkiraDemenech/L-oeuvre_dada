@@ -202,14 +202,8 @@ public static void print (List<String> a) {
 		return p;
 	}
 	
-	public static void seminario (Integer a) {
-		if(a!=null)
-		 System.out.println(a.toString());
-	}
-	
 	public static void main (String[] args) {
 		
-		seminario(null);
 		System.out.print("	GERANDO");
 		
 		List<String> poem = new ArrayList<>();

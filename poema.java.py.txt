@@ -1,0 +1,181 @@
+FileReader(arq)); if(t==null (String
+catch Geral : () if(buff.length()>0)
+words.get(random(words.size()));
+List<String> juntar System.out.print("
+FileWriter(nome)); poem public
+import } public if(b.length()>=(poema.get(c).length()*(0.9)))
+br.readLine(); r buff =
+= } poema write(arq, (int
+List<String> true; p.add(b.toString());
+
+if(buff.length()>0)
+        c=0;
+        public buff.toString(); java.util.List; public { e) for(int
+public
+                while(random(1+random(11))>0);
+                        static
+(String
+                false; FileWriter(nome));
+=
+                return
+words.get(random(words.size()));
+                        ArrayList<>(); Geral public l poem BufferedWriter
+}
+                        new b } BufferedReader(new
+List<String>
+                                List<String> if(words.size()==0)
++ }
+                                ")) return
+                                        // = public
+public
+                                void try
+                        partes)
+else
+                        s else public
+{ (String
+                br; random(((random(4)==0)?(read(poem)):(poema)));
+                        { poem String ")) java.io.FileReader;
+                FileWriter(nome));
+}
+        list
+java.io.IOException;
+        new if(p.indexOf(s.charAt(c))>=0) = = while(b.length()<poema.get(c).length())
+(String
+                } { r.nextInt(max); c=0; || List<String>
+                make(); try b
+                c<poema.size();
+}
+        public
+=
+        java.io.BufferedReader; s (String b nome, { new poema "";
+String
+                StringBuffer
+new
+                        public poem, main List<String> p.add(b.toString()); a) static } return;
+ArrayList<>();
+                        txt) break; p System.out.println("\n");
+                                java.util.ArrayList; void if(buff.length()>0)
+buff
+                        (List<String> =
+r.nextInt(max);
+                buff.append(general.charAt(c));
+                        s static
+                ArrayList<>();
+while(true)
+        list
+static
+        System.out.print(s.charAt(c)); public { String b list ")) if(t==null public
+return
+                { if(b.length()>=(poema.get(c).length()*(0.9)))
+                public static if(args.length!=0) write("new
+                        poema); boolean
+t)
+                s.toUpperCase(); writer.write(s true; return;
+                m.add(s); c=0; buff.append(general.charAt(c));
+{ String
+                        java.io.IOException; list; void public buff juntar
+                                b p; } random writer.close();
+                                        while(b.length()<poema.get(c).length())
+                                        + poema); System.out.print(s.charAt(c));
+                                {
+                        } false;
+                                = if(separator.indexOf(general.charAt(c))!=-1)
+for(int
+                public
+                for(int } public general,
+                        s static = print(poema); System.out.print("Dada");
+StringBuffer();
+                String if(b)
+        c<poema.size();
+StringBuffer();
+        s words c<poema.size(); make(); s.toLowerCase();
+                for(String return buff
+        if(buff.length()>0)
+c++)
+        List<String> + = w import read(poem); StringBuffer
+static
+                b.append(ss java.util.Random;
+                        + r.nextInt(max);
+BufferedWriter(new
+                poema { void = else : s } static for(int
+import
+                { java.util.Arrays;
+                        ""; poem, : public { return new
+                                r.nextInt(max);
+import
+                int read(poem); max)
+                        for(int c=0;
+s import
+                { p; if(separator.indexOf(general.charAt(c))!=-1)
+        static
+writer.write(s
+        } } import b.append(ss Arrays.asList("
+        static juntar public s.toLowerCase();
+        for(String BufferedReader
+        import t) b String make Arrays.asList("
+                new StringBuffer(); : (String[] : b
+                { public = poema);
+                String } : b FileReader(arq)); return;
+                        { String = print } read
+                        make } : nome) list; s if(b) String new public
+                                (String for(int args) return poema; b } + p.add(b.toString());
+                                p ArrayList<>(); =
+                                words.get(random(words.size())); return break;
+                                        p e) StringBuffer
+                        import
+                        StringBuffer poema);
+                =
+                s.toLowerCase();
+        =
+        = import b buff.toString(); for(String }
+                { { main random nome)
+                (String[] c++) writer.write(s
+                        public s = = e) List<String>
+                = Arrays.asList(" }
+                s (IOException +
+                String nome) for(int nome, import
+                r static
+                        = list;
+                        e) "); ArrayList<>(); for(int
+                "); for(int if(words.size()==0)
+                = s () (String String c++)
+                for(int : separe(s,
+                b try writer.close(); new words
+        separe
+        ArrayList<>(); words.add(w); = { String List<String>
+                words.get(random(words.size()));
+                        poem; if(m==null) make();
+                        if(Character.isLetterOrDigit(s.charAt(c)))
+                        nome) BufferedWriter
+                        { poema); public words.add(w); BufferedWriter(new
+                                buff.append(general.charAt(c));
+                                c++)
+                                        + : write(arq, = return
+                                write("new s String writer.close();
+                                        buff.append(general.charAt(c));
+= new
+                                import words.add(w); b.append(ss
+c<general.length();
+                                return { "); c++) public p; { static = { Random();
+                                        List<String>
+public
+                        =
+= import
+                        = " false; writer.close();
+= r;
+                =
+"";
+        boolean
+public
+        import = = b : read if(b.length()>=(poema.get(c).length()*(0.9)))
+                new import new { (String List<String> }
+                s list.add(buff.toString()); poem {
+                        { txt) return e) { "))
+                        String } System.out.print("
+                                ")); static new for(int
+                import
+                static Arrays.asList("
+        static
+try
+
+new
