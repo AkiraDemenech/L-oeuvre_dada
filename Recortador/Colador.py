@@ -205,10 +205,12 @@ def teste ():
 	print(b,file=open('teste.txt','w',encoding='utf8'))
 	a = Colagem(b)'''
 	a = Colagem()
+	a.adicionar(open('../Geral.py','r').read())
 	a.adicionar(open('../Geral.java','r').read())
 	a.adicionar(open('../Quadra/Hexa.java','r').read())
 	a.adicionar(open('../Bingo/Bingo.java','r').read())
-	f = open('resultado.java','w')
+	a.adicionar(open('Colador.py','r').read())
+	f = open('resultado.txt','w')
 	b = ''
 	while True:
 		c = None
