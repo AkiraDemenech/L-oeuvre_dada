@@ -1,5 +1,4 @@
 import random
-#from ctypes import py_object, cast
 
 
 
@@ -29,6 +28,7 @@ def bytestr (d, accept = {set:	lambda o,k,v: o.add(k),
 
 
 ALPHANUM = lambda t: t.isalnum()
+NOTWHITE = lambda t: t.isprintable() and not t.isspace()
 
 class Recorte:
 
@@ -36,17 +36,23 @@ class Recorte:
 		return self.__repr__()
 	
 	def __repr__ (self):		 				
-		return self.__class__.__name__ + '(' + self.texto.__repr__() + (",%d" %self.freq) + ((", *" + self.pref.__repr__()) * len(self.pref)) + ')'	
+		return self.__class__.__name__ + '(' + self.texto.__repr__() + (",%d" %self.freq) + ((", " + self.pref.__repr__()) * len(self.pref)) + ')'	
 			
 
 
 	def __hash__ (self):
 		return self.texto.__hash__()
 
-	def __init__ (self, cont, n = 1, *pre):
+	def __init__ (self, cont, n = 1, pre = ''):
 		self.texto = cont
 		self.freq = n
-		self.pref = set(pre)
+		if type(pre) != set:
+			if pre == None:
+				pre = set()
+			else:
+				pre = {pre}
+		self.pref = pre
+		
 		
 	def __eq__ (self, outro):
 		if type(self) == type(outro):
@@ -59,6 +65,13 @@ class Recorte:
 		self.freq += 1
 		return self.freq
 
+def incidir (conjunto, termo, inter = None):				
+	if termo in conjunto:
+		for c in conjunto:
+			if c == termo:
+				return c.reincidir(inter)				
+	conjunto.add(Recorte(termo,pre=inter))			
+	return True
 
 class Colagem:
 
@@ -67,8 +80,6 @@ class Colagem:
 		
 
 	def __init__ (self, fonte = None, separador = ALPHANUM):
-		if type(separador) == int or type(separador) == str:
-			separador = ALPHANUM#cast(separador,py_object).value
 		self.separ = separador
 		self.fonte = set()
 		if fonte == None:
@@ -87,49 +98,37 @@ class Colagem:
 			self.dicio[g][origem] = {None: set()}
 		if not divisor in self.dicio[g][origem]: 	
 			self.dicio[g][origem][divisor] = set()
-		if destino in self.dicio[g][origem][divisor]:	
-			for d in self.dicio[g][origem][divisor]:
-				if d == destino:
-					d.reincidir()
-					break
-		else:	
-			self.dicio[g][origem][divisor].add(Recorte(destino))
+		incidir(self.dicio[g][origem][divisor], destino)	
+			
 
-		if destino in self.dicio[g][origem][None]:	
-			for d in self.dicio[g][origem][None]:
-				if d == destino:
-					d.reincidir(divisor)
-					break
-		else: 
-			self.dicio[g][origem][None].add(Recorte(destino,pre=divisor)) 	
-
-		if destino in self.dicio[g][None]:	
-			for d in self.dicio[g][None]:
-				if d == destino:
-					d.reincidir(divisor)
-					break
-		else: 
-			self.dicio[g][None].add(Recorte(destino, pre = divisor)) 	
+		incidir(self.dicio[g][origem][None], destino,divisor) 	
+		incidir(self.dicio[g][None],destino,divisor)	
 
 
-
-
-	def adicionar (self, texto):	
+	def adicionar (self, texto, vazio = '', separar = None):	
+		if separar == None:
+			separar = self.separ
 		self.fonte.add(texto)
-		p = s = ''
+		p = o = s = vazio
 		for char in texto:
-			if self.separ(char):
-				if len(s):
-					pass
-
+			if separar(char):
+				if o == None:
+					o = p					
+					p = vazio
 				p += char
 			else: 	
+				if o != None: 
+					self.conectar(o,p,s)					
+					s = vazio					
+					o = None
 				s += char
+
 		
 
 		
 
 				
+
 
 			
 
