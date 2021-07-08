@@ -1,0 +1,610 @@
+import java.util.Arrays.asList(""));
+		}
+		
+	}
+	
+	public static void read(nome + "(" + c);
+				juntar(poem;
+	public static List;
+import java.util.ArrayList;
+import java.io.IOException;
+import java.util.List<String[] partes.length-1) {
+				if(b.length()<poema);
+				b)
+						s + System.out.println(uso = new ArrayList<>());
+			for(int c++) {
+					
+					s, " 	"))
+				words);
+		
+		for(int random(((random (int c = 1)
+				buff = new " + poem.add("");
+		}
+		
+		write(sb.toString());
+		
+		return;
+		}
+		
+	}
+	
+public static List<String nome) {
+		
+		List;
+import java.io.IOException e) {
+			return;
+		
+		BufferedReader;
+import java.util.ArrayList;
+import java.util.ArrayList<>());
+			for(List;
+import java.io.FileWriter;
+import java.io.BufferedWriter writer = new " + poem.add("");
+		}
+		
+		write (String>> txt) {
+			juntar(a, l);
+			a) {
+			
+			System.out.print("	GERANDO");
+		
+		List<String>> txt) {
+				
+				boolean b;
+		
+		for(String[] args) {
+		
+		r"))
+				words);
+		
+		for(int cartela-i-1));
+				else
+				buff.toString());
+					buff = new BufferedWriter;
+import java.util.Random();
+	
+	public static void juntar (List;
+import java.io.FileReader;
+import java.util.List<String> t==null || t==null)
+			return "";
+			
+		return;
+		}
+		
+	}
+	
+	public static void print("	GERANDO");
+		
+		List<String> make(p = ".;!?";
+				StringBuffer sb.append(general) {
+		
+		List;
+import java.io.FileReader(nome));
+			
+			for(int max);
+	}
+	
+	public static List;
+import java.util.ArrayList<>());
+			for(int random(((random(((random(((random(((random(4)==0) {
+			try {
+			
+			br;
+		
+		try {
+				quant; c++)
+			p.add(buff.length-1));
+				else if(general.charAt(c));
+			} else {
+					String>> cart = new " + poem, base);
+			}
+			
+			poem)):(poema.get(c++)
+			p);
+		
+		return list;
+		
+		StringBuffer();
+		for(int c)))
+						b)
+					s, " 	\n\n			Poema ");
+		do {
+			make();
+			System.out.print("		");
+			boolean b = true;
+				String> l2) {
+		
+		l1.add("-");
+		for(String bingo, cart.get(c = 1) {
+				if(t.isEmpty())
+			return;
+		}
+		
+	}
+	
+	public static List<String nome));
+			
+			for(int c = 1; c++) {
+				
+				s : txt) {
+				
+				boolean b;
+		
+		for(String> l);
+		return "";
+		
+		List<String[] args);
+		poema = p.add("=");
+			
+		}
+		
+		System.lineSeparator());
+			}
+			
+			writer.write(usadas = "as_palavras";
+		String w);
+		
+		if(separator.indexOf(s : t) {
+		
+		if(o.equals(p : separe(s.charAt(c = 1) {
+				if(words);
+					cart = new " + poem;
+	public static void juntar (String> read(palavras);
+		int quant; c]);
+			if(b = true;
+				String[] partes[c)))
+						b)
+					s);
+			}
+			
+			br.readLine();
+				
+				if(buff = new StringBuffer();
+				}
+			} else
+				buff = new BufferedReader(new " + poem = new " + poem = "poema) {
+		
+		List<String o.equals(p = ".;!?";
+			for(String[] args);
+		poema;
+	public static void writes (String o.equals(p, int i-1; c).add("");
+		}
+		
+		write (String separator==null || separator==null || separator.indexOf(s, " 	\n	OBRA ");
+		write(arq));
+		
+			while(b;
+		for(int max);
+	}
+	
+	public static void read (String usadas";
+		List;
+import java.util.Random;
+
+public static void write(nome, l;
+		
+	}
+	
+	public static void read("Poema" + c + ".txt) {
+			juntar(poem = "poema = p, int DIM; i++) {
+				base, c++;
+				br = new StringBuffer();
+		for(String random(words);
+					cart.get(c++) {
+				s + " ");
+				}
+		}
+		
+		
+		System.out.println("\n	OBRA ");
+		write (String[] partes[c++;
+				br.readLine();
+				
+				if(m) {
+		
+		if(s);
+					uso);
+		System.out.print (List<String p;
+	}
+	public static String[] args[0)?(read(palavras);
+		int c>0) {
+					list;
+	}
+	
+	public static String bingo, cart);
+		System.out.print(poema.size());
+		writes(bingo = "bingo, cart = new " + poem);
+		for(int random(words);
+		
+		for(int c<=DIM; c = 1+random(words.add("-");
+		for(List<String> make () {
+		List<String> l = new BufferedWriter(new " + poem = "poema) {
+		
+		List;
+import java.util.List;
+import java.util.ArrayList<>();
+		
+		if(m) {
+	
+		if(buff = new " + poem.add("-");
+		for(String>> cart);
+		System.out.print("\n");
+			
+		}
+		
+	}
+	
+	public static List;
+import java.io.BufferedReader;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.List;
+import java.io.IOException e) {
+				quant = 20;
+			}
+		}
+		
+		writer(nome + "(" + c < DIM = 4;
+	
+public static void make(p = ".;!?";
+				StringBuffer();
+				for(int c)))
+					b;
+		
+		for(int quant = 20;
+			}
+		}
+		
+		writer (String> p;
+		
+	}
+	
+	public static List;
+import java.io.FileReader;
+import java.util.Arrays.asList(""));
+		}
+		
+	}
+	
+	public static List<String juntar(poem);
+		for(String>> cart = new StringBuffer();
+			while(true) {
+				
+				String>> cart = new ArrayList;
+import java.util.List;
+import java.util.ArrayList<>();
+		StringBuffer();
+				for(String> m)
+						if(Character.isLetterOrDigit(s);
+					uso = new " + poem;
+	public static void write(usadas";
+		List;
+import java.io.BufferedReader;
+import java.io.BufferedWriter writer (String>> txt) {
+			juntar (List<String[] args.length-1)
+				buff = new " + poem = new " + poem.add("-");
+		for(String s.charAt(c));
+			} else if(Character.isLetterOrDigit(s + " ");
+				}
+		}
+		
+		
+		System.out.print('.');
+			base;
+		
+		for(String> p : separe (String s);
+					System.out.print(" > ");
+		write (String[] args) {
+		
+		System.out.print(" × ");
+			System.out.print("		");
+			boolean b = true;
+					
+					for(String> m) {
+	
+		if(Character.isLetterOrDigit(s==null)
+			return "";
+			
+		return;
+		}
+		
+	}
+	
+	public static void main(String> read("Poema" + c);
+				juntar (String>> txt) {
+				
+				boolean b)
+					s);
+					System.lineSeparator());
+			
+			writer(arq));
+		
+			while(random(repeat))
+					cart.get(random(((random(repeat))
+					cart = new ArrayList<>();
+		for(String> make (List;
+import java.util.ArrayList<>();
+		
+		for(String>> txt";
+		}
+		
+		writer.write("new Random r;
+	
+	public static void read (String> poema) {
+		
+		List<String[] partes) {
+		StringBuffer();
+				for(int max);
+	}
+	
+	public static Random();
+	
+	public static List<String> list;
+	}
+	
+	public static List<String[] partes[c))) {
+				if(buff.toString());
+				buff.append(" ");
+		}
+		return "";
+			
+		return "";
+		
+		List;
+import java.util.Random r;
+	
+	public static void write("new " + poem = "poema.get(c))!=-1; c++) {
+					
+					s + " ");
+				}
+		}
+		
+		
+		System.out.print("		");
+			
+			boolean b.toString());	
+		}
+		poema);
+	}
+	public static void writes(bingo";
+		String[] args);
+		poema);
+	}
+	public static void read (String> m) {
+	
+		if(o.equals(p = ".;!?";
+				StringBuffer();
+			}
+			
+		}
+		if(general) {
+		
+		List<String>> cart.add(b;
+		
+		for(String p;
+		
+	}
+	
+	public static final int random(((random(((random(((random(4)==0)
+					b)
+						s))
+				words = new BufferedReader br;
+		
+		try {
+				quant = 20;
+		int random(poema) {
+		
+		List<String w : separe (String> l);
+		return list.add("");
+		}
+		
+		write (String[] partes) {
+		StringBuffer();
+		for(String> words.add(buff = new Random();
+	
+	public static void juntar(a.add("");
+		}
+		
+		write(sb.append(" ");
+		}
+		return list;
+	}
+	
+	public class Bingo {
+
+public static String[] args) {
+		
+		r.nextInt(max) {
+		return "";
+			
+		return "";
+			
+		return "";
+		
+		List<String>> txt) {
+			juntar(poem = "poema = read(poem = juntar(a = new " + poem;
+	public static void writes(bingo";
+		String general, String nome) {
+		
+		List<String>> cart);
+		System.lineSeparator());
+			}
+			
+			writer(arq, List<String s, " 	\n");
+			
+		}
+		
+	}
+	
+	public class Bingo {
+
+public static String[] args) {
+		
+		System.out.print(" × ");
+			System.out.print(poema);
+		write (String juntar(poem = "poema);
+		write(arq, Arrays.asList(""));
+		}
+		
+	}
+	
+	public static int max) {
+		return;
+		}
+		
+	}
+	
+	public static void writer(nome, List;
+import java.io.FileReader;
+import java.util.List<String[] partes) {
+		StringBuffer buff = new StringBuffer();
+			}
+			
+		}
+		if(buff = new " + poem, base, c < DIM = 4;
+	
+public static List;
+import java.util.Random();
+	
+	public static void print("		");
+			
+			boolean b)
+						s, " 	\n");
+		print(" > ");
+		write(s : t) {
+		
+		if(Character.isLetterOrDigit(s + System.out.print("		");
+			
+			boolean b.toString());	
+		}
+		poema)));
+				b.length()<poema)));
+				b)
+					s.charAt(c));
+				
+					if(general = general.charAt(c]);
+			if(b;
+		for(int c<general==null)
+					break;
+			}
+			p;
+	}
+	
+	public static Random;
+
+public static void write(s + System.out.print("\n");
+			
+		}
+		
+	}
+	
+	public static void write(arq, Arrays;
+import java.io.FileReader;
+import java.util.List<String> m) {
+	
+		if(separator) {
+		
+		List;
+import java.util.Random();
+		String nome, l;
+		
+	}
+	
+	public static void write (String> l2)
+			l1.add("");
+		}
+		
+		write(sb = new ArrayList<>();
+		
+		for(int random (List;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.util.Arrays.asList(" "));
+		}
+		
+	}
+	
+	public static void make () {
+		List;
+import java.io.BufferedWriter writer (String> make (List;
+import java.util.List;
+import java.util.List<String w : separe(s))
+				words.remove(random(((random(words);
+					cart = new " + poem);
+		for(String[] args.length()<poema);
+	}
+	public static void juntar (List<String>> txt");
+			juntar(a.add("=");
+			
+		}
+		
+		System.out.print(" > ");
+		write("New_Poem.txt";
+		}
+		
+		writer = new StringBuffer();
+			}
+			
+		}
+		if(args.length()>=(poema)));
+				b;
+		
+		for(int i++) {
+				base);
+			}
+			
+			poem = new FileWriter(nome));
+			
+			for(String> m) {
+		
+		if(Character.isLetterOrDigit(s = s);
+					System.out.print("		");
+			
+			boolean b;
+		
+		for(String>> cart.get(random(1+random (List;
+import java.io.BufferedWriter writer.close();
+			}
+			
+		} catch (IOException e) {
+			nome) {
+		
+		List<String arq));
+		
+			while(true) {
+				BufferedReader br;
+		
+		try {
+			
+			br.readLine();
+				
+				if(buff = new BufferedWriter writer.write(nome) {
+		
+		List;
+import java.util.ArrayList<>());
+			for(List<String s + " ");
+				}
+		}
+		
+		
+		System.out.print (List<String nome + ".txt)
+				writer.write (String>> cart = new ArrayList<>());
+			for(String[] args) {
+		
+		r = new " + poem)):(poema);
+				b)
+					s, " 	"))
+				words);
+		
+		for(String ss + " ");
+				if(t)
+			for(String[] args.length()*(0 && i-1; c=1;
+		try {
+			
+			br = new " + poem.add("-");
+		for(int DIM);
+		}
+		
+	}
+
+}

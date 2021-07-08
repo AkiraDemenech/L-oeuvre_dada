@@ -1,5 +1,32 @@
 import random
 
+SIMPLES = lambda x: True
+JUSTO = lambda p: p.freq
+
+
+def sortear (c,alt = {tuple,list,dict},rand=random.randint):
+	peso = SIMPLES
+	l = len(c)
+	if type(c) in alt:
+		if type(c) == dict:
+		#	print('Sorteando chave de dicionário')
+			return sortear(c.keys())
+	#	print('Sorteando item com peso')	
+		l = c[1]
+		c = c[0]
+		peso = JUSTO				
+	if l <= 0:
+	#	print('sem tamanho')
+		return 
+	l = rand(0,l - 1)		
+	for t in c:	
+		if l < peso(t):
+			break
+		l -= peso(t)
+	return t	
+
+
+
 
 
 def bytestr (d, accept = {set:	lambda o,k,v: o.add(k), 
@@ -36,7 +63,7 @@ class Recorte:
 		return self.__repr__()
 	
 	def __repr__ (self):		 				
-		return self.__class__.__name__ + '(' + self.texto.__repr__() + (",%d" %self.freq) + ((", " + self.pref.__repr__()) * len(self.pref)) + ')'	
+		return self.__class__.__name__ + '(' + self.texto.__repr__() + (",%d" %self.freq) + ((", " + self.pref.__repr__()) * (len(self.pref) >= 1)) + ')'	
 			
 
 
@@ -66,6 +93,9 @@ class Recorte:
 		return self.freq
 
 def incidir (conjunto, termo, inter = None):				
+	if type(conjunto) != set:
+		conjunto[1] += 1
+		conjunto = conjunto[0]
 	if termo in conjunto:
 		for c in conjunto:
 			if c == termo:
@@ -76,40 +106,59 @@ def incidir (conjunto, termo, inter = None):
 class Colagem:
 
 	def __repr__ (self):
-		return "Colagem(%s)" %str(self.fonte)
+		return self.__str__()
+	def __str__ (self):
+		return "Colagem(%s,%s)" %(str(self.dicio),self.marca.__repr__())
 		
 
-	def __init__ (self, fonte = None, separador = ALPHANUM):
+	def __init__ (self, fonte = None, marcador = '', separador = ALPHANUM):
+
+		self.marca = marcador
 		self.separ = separador
 		self.fonte = set()
 		if fonte == None:
 			self.dicio = {}
 			return
 
-		if type(fonte) == str:
+		while type(fonte) == str:
 			fonte = eval(fonte)			
+			if type(fonte) == bytes:	
+				fonte = fonte.decode()
 		self.dicio = bytestr(fonte)
 
 	def conectar (self, origem, destino, divisor):
 		g = origem.upper()
 		if not g in self.dicio:
-			self.dicio[g] = {None: set()}
+			self.dicio[g] = {None: [set(), False]}
 		if not origem in self.dicio[g]:	
-			self.dicio[g][origem] = {None: set()}
+			self.dicio[g][origem] = {None:[set(),False]}
 		if not divisor in self.dicio[g][origem]: 	
-			self.dicio[g][origem][divisor] = set()
+			self.dicio[g][origem][divisor] = [set(),0]
 		incidir(self.dicio[g][origem][divisor], destino)	
 			
 
 		incidir(self.dicio[g][origem][None], destino,divisor) 	
 		incidir(self.dicio[g][None],destino,divisor)	
+	#	print(origem.__repr__(), divisor.__repr__(), destino.__repr__())
 
 
-	def adicionar (self, texto, vazio = '', separar = None):	
+
+
+	def adicionar (self, texto, vazio = None, separar = None):	
+		if type(texto) != str:
+			for t in texto:
+				self.adicionar(t,vazio,separar)
+				
+			return
+		if len(texto) <= 0:
+			return
+		if vazio == None:
+			vazio = self.marca	
 		if separar == None:
 			separar = self.separ
 		self.fonte.add(texto)
-		p = o = s = vazio
+		o = None
+		p = s = vazio
 		for char in texto:
 			if separar(char):
 				if o == None:
@@ -122,6 +171,11 @@ class Colagem:
 					s = vazio					
 					o = None
 				s += char
+		if separar(char):		
+			self.conectar(o, p, s)
+			s = vazio
+		self.conectar(p,vazio, s)	
+			
 
 		
 
@@ -130,5 +184,42 @@ class Colagem:
 				
 
 
-			
+def teste ():			
+	'''
+	a = Colagem()
+	a.adicionar('\r   , \t ,--\nhg')#,separar=NOTWHITE)
+	print(a)
+	c = a.marca
+	while True:
+		print(repr(c))
+		for c in a.dicio[c.upper()][None][0]:
+			print(c)
+			c = c.texto
+			if len(c):
+				break
+		if c == a.marca:
+			if input('Terminou de testar já?').lower()[0] != 'n':
+				break
 
+	b = eval(open('teste.log','r').read()).decode().replace('}},','}},\n\t')
+	print(b,file=open('teste.txt','w',encoding='utf8'))
+	a = Colagem(b)'''
+	a = Colagem()
+	a.adicionar(open('../Geral.java','r').read())
+	a.adicionar(open('../Quadra/Hexa.java','r').read())
+	a.adicionar(open('../Bingo/Bingo.java','r').read())
+	f = open('resultado.java','w')
+	b = ''
+	while True:
+		c = None
+		while c == None:
+			c = sortear(a.dicio[b.upper()][b])
+		b = sortear(a.dicio[b.upper()][b][c]).texto
+		print(c + b,file=f,end='')
+		if len(b):
+			continue
+		f.close()
+		break
+		
+if '__main__' == __name__:
+	teste()		
